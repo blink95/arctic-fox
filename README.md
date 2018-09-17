@@ -2,13 +2,13 @@ Files compile with the Windows version of TDM-GCC-64
 
 Makefile runs using GnuWin for make
 
-//LZ.c outputs a compressed version of the input content.
+	LZ.c outputs a compressed version of the input content.
 
-//EXPAND.c recovers the original content from the compressed version.
+	EXPAND.c recovers the original content from the compressed version.
 
-//big.txt will act as our binary file for encoding/decoding testing, downloaded from https://norvig.com/big.txt
+	big.txt will act as our binary file for encoding/decoding testing, downloaded from https://norvig.com/big.txt
 
-//MAKEFILE compiles both LZ.c and EXPAND.c into executables using TDM-GCC-64 and is run by using GnuWin make
+	MAKEFILE compiles both LZ.c and EXPAND.c into executables using TDM-GCC-64 and is run by using GnuWin make
 
 CURRENT PROCEDURE:
 	
