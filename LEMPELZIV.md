@@ -2,6 +2,7 @@ SOURCE:
 	Information and specifics on the LZ77 Sliding Window and other Lempel-Ziv variations can be found at: http://orbit.dtu.dk/files/134976715/LIPIcs_CPM_2017_15.pdf
 
 PARAMETERS OF THE LEMPEL-ZIV SLIDING WINDOW:
+	
 	N specifies the number of bits used to encode an offset into the window. N also determines the window size, W, which is 2N. The default value of N is 11. 
 
 	L specifies the number of bits used to encode the maximum match length. L also determines the lookahead buffer size, F, which is 2L. The default value of L is 4. 
