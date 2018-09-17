@@ -1,0 +1,17 @@
+CC = gcc
+CFLAGS = -I.
+PROGRAM1 = LZ
+PROGRAM2 = EXPAND
+
+all: prog1 prog2
+
+prog1:
+	$(CC) -o $(PROGRAM1) LZ.c $(CFLAGS)
+
+prog2:
+	$(CC) -o $(PROGRAM2) EXPAND.c $(CFLAGS)
+
+
+clean:
+	rm $(PROGRAM)
+

@@ -1,0 +1,1 @@
+EXPAND big-encoded.compressed > big-decoded.recover

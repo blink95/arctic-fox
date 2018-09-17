@@ -1,0 +1,1 @@
+LZ big.txt > big-encoded.compressed
